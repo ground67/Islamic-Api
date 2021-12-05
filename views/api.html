@@ -1,0 +1,188 @@
+
+<!-- Credit Template By Ground67 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Islamic Api - Ground67</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="Marhaban Ya Ramadhan !">
+     <meta name="keywords" content="Islamic, Islamic data, Muslim, Prayer Times, Qur'an Api, Hadits Api">
+     <meta name="author" content="Gak ada Author, FREE FOR ALL">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/aos.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="css/templatemo-digital-trend.css">
+
+</head>
+  <body>
+  <body id="page-top" onload="getvisitor();">
+    <div class="container-scroller">
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top"> 
+         <!-- <a class="sidebar-brand brand-logo rounded-circle" href="#"><img src="images/logo1.png" alt="logo" /></a>
+          <a class="sidebar-brand brand-logo-mini" href="#"><img src="images/logo1.png" class="rounded-circle" alt="logo" /></a> -->
+        </div>
+       <font face="Original Surfer">
+        <ul class="nav">
+          <li class="nav-item profile">
+            <div class="profile-desc">
+              <div class="profile-pic">
+                <div class="count-indicator">
+                  <img class="img-xs rounded-circle " src="https://i.ibb.co/7zY545x/caaf2ede0da8.jpg" alt="heigt:100,weight:50">
+                  <span class="count bg-success"></span>
+                </div> 
+                <div class="profile-name">
+                  <h5 class="mb-0 font-weight-normal">Ground•67</h5>
+                  <span>Semoga Bermanfaat</span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item nav-category">
+            <h3 class="nav-link">Docs</h3>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="#">
+          <span class="menu-icon">
+          <i class="mdi mdi-home"></i>
+          </span>
+      
+          <span class="menu-title">Islamic API</span>
+          <i class="menu-arrow"></i>
+          </a>
+          <div class="collapse" id="ui-islamic">
+          <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link"href="api/hadits?kitab=bukhari&nomor=52">Hadits Shahih</a></li>
+          <li class="nav-item"> <a class="nav-link"href="api/quran?surah=1&ayat=2">Al Qur'an</a></li>
+          <li class="nav-item"> <a class="nav-link"href="api/data/json/tahlil">Doa Tahlil</a></li>
+          <li class="nav-item"> <a class="nav-link"href="api/data/json/wirid">Doa Wirid</a></li>
+          <li class="nav-item"> <a class="nav-link"href="api/data/json/asmaulhusna">Asmaul Husna</a></li>
+          <li class="nav-item"> <a class="nav-link"href="api/data/json/doaharian">Doa Harian</a></li>
+          <li class="nav-item"> <a class="nav-link"href="api/data/json/ayatkursi?">Ayat Kursi</a></li>
+          <li class="nav-item"> <a class="nav-link"href="api/data/json/kisahnabi?nabi=muhammad">Kisah Nabi</a></li>
+          <li class="nav-item"> <a class="nav-link"href="api/data/json/niatshalat">Niat Shalat</a></li>
+          <li class="nav-item"> <a class="nav-link"href="api/data/json/bacaanshalat">Bacaan Shalat</a></li>
+          <li class="nav-item"> <a class="nav-link"href="api/data/jadwalshalat?kota=jakarta">Jadwal Shalat</a></li>
+          </ul>
+          </div>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" data-toggle="collapse" href="#ui-stalker" aria-expanded="false" aria-controls="ui-stalker">
+          <span class="menu-icon">
+          <i class="mdi mdi-chart-bar"></i>
+          </span>
+
+              <span class="menu-title">Github</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="https://wa.me/62895606805040">
+              <span class="menu-icon">
+                <i class="mdi mdi-whatsapp"></i>
+              </span>
+              <span class="menu-title">WhatsApp</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="https://saweria.co/VockaDenim">
+              <span class="menu-icon">
+                <i class="mdi mdi-saweria"></i>
+              </span>
+              <span class="menu-title">Donasi</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="https://instagram.com/ground_67">
+              <span class="menu-icon">
+                <i class="mdi mdi-instagram"></i>
+              </span>
+              <span class="menu-title">Instagram</span>
+            </a>
+          </li>
+        </ul>
+       </font>
+      </nav>
+<!--      <div class="container-fluid page-body-wrapper">
+        <nav class="navbar p-0 fixed-top d-flex flex-row">
+          <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
+            <a class="navbar-brand brand-logo-mini" href="index.html"><big><i class="mdi mdi-biohazard text-primary"></i></big></a>
+          </div>
+          <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+              <span class="mdi mdi-menu"></span>
+            </button>
+            <ul class="navbar-nav w-100">
+              <li class="nav-item w-100">
+                <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex ">
+                  <input type="text" class="form-control" placeholder="Ground67 APIs">
+                </form>
+              </li>
+            </ul>
+            <ul class="navbar-nav navbar-nav-right">
+              <li class="nav-item nav-settings d-none d-lg-block">
+                <a class="nav-link" href="#">
+                  <i class="mdi mdi-view-grid"></i>
+                </a>
+              </li>
+              <li class="nav-item dropdown border-left">
+                <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+                  <i class="mdi mdi-bell"></i>
+                  <span class="count bg-danger"></span>
+                </a> -->
+                
+              <div class="col-md-12 grid-margin stretch-card">
+              <div class="card">
+              <h4 class="card-title">FITUR LAINNYA</h4>
+              <div class="template-demo">
+              <button type="button" id="sbs" class="btn btn-dark btn-lg btn-block" onclick="githubstalk()">GITHUB </button>
+              <button type="button" id="sbs" class="btn btn-dark btn-lg btn-block" onclick="api/data/json/jadwalshalat()">JADWAL SHOLAT</button>
+              <button type="button" id="sbs" class="btn btn-dark btn-lg btn-block" onclick="hilihgen()">GENERATOR</button>
+               <button type="button" id="sbs" class="btn btn-dark btn-lg btn-block" onclick="/home ">BACK</button>
+              </div>
+              </div>
+              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="footer">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+              <div class="bg-dark btn btn-block btn-outline-danger">
+                <font face="Original Surfer" class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © <span id="Years">2021</span> Vocka Style</font>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script>
+      swal({
+        title: 'Welcome To Rest Api Ground67',
+        text: 'Gunakan Dgn Bijak :)',
+        imageUrl: 'https://i.ibb.co/7zY545x/caaf2ede0da8.jpg',
+        imageWidth: 100,
+        imageHeight: 100,
+        imageAlt: 'Ground67',
+        animation: true
+      })
+    </script> 
+			<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>   
+    <script src="vendors/js/vendor.bundle.base.js"></script>
+    <script src="vendors/owl-carousel-2/owl.carousel.min.js"></script>
+    <script src="js/off-canvas.js"></script>
+    <script src="js/hoverable-collapse.js"></script>
+    <script src="js/misc.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/todolist.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/ojan.js"></script>
+    
+  </body>
+  </html>
