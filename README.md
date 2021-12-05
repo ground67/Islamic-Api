@@ -1,6 +1,6 @@
 <div align="center">
  
-# Islamic Api V2 - Zhirrr
+# Islamic-Api 
 <p align="center">
 <img src="https://i.ibb.co/TmWvKVm/masjid.webp">
 </p>
@@ -20,7 +20,7 @@
    <a href="https://instagram.com/zhirr_ajalah"><img height="30" src="https://raw.githubusercontent.com/TobyG74/TobyG74/main/instagram.jpg"></a>
 </P>
 <p align ='center'>
-Islamic Api V2 adalah Api yang berisi data2 islami yang lebih lengkap daripada versi sebelumnya, yaitu Api Islamic yang pernah saya buat sebelumnya.
+Islamic Api  adalah Api yang berisi data2 islami yang lebih lengkap daripada versi sebelumnya, yaitu Api Islamic yang pernah saya buat sebelumnya.
 </p>
 
 
@@ -122,3 +122,7 @@ Untuk Melihat
 - 100 % Open Source
 - Like This Repository Okeee 🎉
 - Special Note : Ini Adalah Public API Yang Digunakan Bersama-Sama, Jadi Kita Harus Memakai Nya Dengan Bijak Okey 👍
+## 🙏Special thx
+- Allah S. W. T
+- Zhirrr (Author) 
+- Ground67 (reUploud/reCode)
